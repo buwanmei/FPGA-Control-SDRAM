@@ -16,9 +16,11 @@ view signals
 
 add wave -divider {tb_top}
 add wave tb_top/*
+add wave -divider {sdram_write}
+add wave tb_top/sdram_top_inst/sdram_write_inst/*
 
 
 
 .main clear
 
-run 320us
+run 220us

@@ -1,0 +1,8 @@
+
+State Machine - |top|sdram_top:sdram_top_inst|state
+Name state.READ state.WRITE state.AREF state.ARBIT state.IDLE 
+state.IDLE 0 0 0 0 0 
+state.ARBIT 0 0 0 1 1 
+state.AREF 0 0 1 0 1 
+state.WRITE 0 1 0 0 1 
+state.READ 1 0 0 0 1 

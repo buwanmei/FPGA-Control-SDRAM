@@ -1,0 +1,1226 @@
+# Reading D:/questasim/xin/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.6c win64 Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile F:/Study/FPGA/opensoc/first/kevin_code/Sdram_Controller/sim/AA.mpf
+# Loading project AA
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:10:08 on Aug 02,2018
+# vlog -reportprogress 300 ../src/cmd_decode.v ../src/sdram_aref.v ../src/sdram_init.v ../src/sdram_read.v ../src/sdram_top.v ../src/sdram_write.v ../src/top.v ../src/uart_rx.v ../src/uart_tx.v 
+# -- Compiling module cmd_decode
+# -- Compiling module sdram_aref
+# -- Compiling module sdram_init
+# -- Compiling module sdram_read
+# -- Compiling module sdram_top
+# -- Compiling module sdram_write
+# -- Compiling module top
+# -- Compiling module uart_rx
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	top
+# End time: 16:10:08 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:10:09 on Aug 02,2018
+# vlog -reportprogress 300 ./sdram_model_plus.v ./tb_top.v 
+# -- Compiling module sdram_model_plus
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 16:10:09 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:10:09 on Aug 02,2018
+# vlog -reportprogress 300 ./altera_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 16:10:10 on Aug 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:10:11 on Aug 02,2018
+# vlog -reportprogress 300 ./../src/core/fifo_16x8.v 
+# -- Compiling module fifo_16x8
+# 
+# Top level modules:
+# 	fifo_16x8
+# End time: 16:10:11 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_top 
+# Start time: 16:10:11 on Aug 02,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ./sdram_model_plus.v(867): (vopt-2697) MSB of part-select into 'Dq_dqm' is out of bounds.
+# ** Warning: ./sdram_model_plus.v(867): (vopt-2697) LSB of part-select into 'Dq_dqm' is out of bounds.
+# ** Warning: ./sdram_model_plus.v(868): (vopt-2697) MSB of part-select into 'Dq_dqm' is out of bounds.
+# ** Warning: ./sdram_model_plus.v(868): (vopt-2697) LSB of part-select into 'Dq_dqm' is out of bounds.
+# ** Note: (vopt-143) Recognized 1 FSM in module "sdram_read(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "sdram_write(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "sdram_top(fast)".
+# Loading work.tb_top(fast)
+# Loading work.top(fast)
+# Loading work.uart_rx(fast)
+# Loading work.cmd_decode(fast)
+# Loading work.fifo_16x8(fast)
+# Loading work.scfifo(fast)
+# Loading work.ALTERA_DEVICE_FAMILIES(fast)
+# Loading work.uart_tx(fast)
+# Loading work.sdram_top(fast)
+# Loading work.sdram_init(fast)
+# Loading work.sdram_aref(fast)
+# Loading work.sdram_write(fast)
+# Loading work.sdram_read(fast)
+# Loading work.sdram_model_plus(fast)
+# ** Warning: (vsim-3015) ./tb_top.v(101): [PCDPC] - Port size (4) does not match connection size (2) for port 'Dqm'. The port definition is at: ./sdram_model_plus.v(56).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/sdram_model_plus_inst File: ./sdram_model_plus.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# at time    200130 ns PRE  : Bank = ALL
+# at time    200150 ns AREF : Auto Refresh
+# at time    200230 ns AREF : Auto Refresh
+# at time    200310 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 4
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time    215410 ns AREF : Auto Refresh
+# at time    230410 ns AREF : Auto Refresh
+# at time    245410 ns AREF : Auto Refresh
+# at time    260410 ns AREF : Auto Refresh
+# at time    275410 ns AREF : Auto Refresh
+# at time    290410 ns AREF : Auto Refresh
+# at time    305410 ns AREF : Auto Refresh
+run 15us
+# at time    320410 ns AREF : Auto Refresh
+run 15us
+# at time    335410 ns AREF : Auto Refresh
+run 15us
+# at time    350410 ns AREF : Auto Refresh
+run 15us
+# at time    365410 ns AREF : Auto Refresh
+
+run 15us
+# at time    380410 ns AREF : Auto Refresh
+
+run 1ms
+# at time    395410 ns AREF : Auto Refresh
+# at time    410410 ns AREF : Auto Refresh
+# at time    425410 ns AREF : Auto Refresh
+# at time    440410 ns AREF : Auto Refresh
+# at time    455410 ns AREF : Auto Refresh
+# at time    470410 ns AREF : Auto Refresh
+# at time    485410 ns AREF : Auto Refresh
+# at time    500410 ns AREF : Auto Refresh
+# at time    515410 ns AREF : Auto Refresh
+# at time    530410 ns AREF : Auto Refresh
+# at time    545410 ns AREF : Auto Refresh
+# at time    560410 ns AREF : Auto Refresh
+# at time    575410 ns AREF : Auto Refresh
+# at time    590410 ns AREF : Auto Refresh
+# at time    605410 ns AREF : Auto Refresh
+# at time    620410 ns AREF : Auto Refresh
+# at time    635410 ns AREF : Auto Refresh
+# at time    650410 ns AREF : Auto Refresh
+# at time    665410 ns AREF : Auto Refresh
+# at time    680410 ns AREF : Auto Refresh
+# at time    695410 ns AREF : Auto Refresh
+# at time    710410 ns AREF : Auto Refresh
+# at time    725410 ns AREF : Auto Refresh
+# at time    740410 ns AREF : Auto Refresh
+# at time    755410 ns AREF : Auto Refresh
+# at time    770410 ns AREF : Auto Refresh
+# at time    785410 ns AREF : Auto Refresh
+# at time    800410 ns AREF : Auto Refresh
+# at time    815410 ns AREF : Auto Refresh
+# at time    830410 ns AREF : Auto Refresh
+# at time    845410 ns AREF : Auto Refresh
+# at time    860410 ns AREF : Auto Refresh
+# at time    875410 ns AREF : Auto Refresh
+# at time    890410 ns AREF : Auto Refresh
+# at time    905410 ns AREF : Auto Refresh
+# at time    920410 ns AREF : Auto Refresh
+# at time    935410 ns AREF : Auto Refresh
+# at time    950410 ns AREF : Auto Refresh
+# at time    965410 ns AREF : Auto Refresh
+# at time    980410 ns AREF : Auto Refresh
+# at time    995410 ns AREF : Auto Refresh
+# at time   1010410 ns AREF : Auto Refresh
+# at time   1025410 ns AREF : Auto Refresh
+# at time   1040410 ns AREF : Auto Refresh
+# at time   1055410 ns AREF : Auto Refresh
+# at time   1070410 ns AREF : Auto Refresh
+# at time   1085410 ns AREF : Auto Refresh
+# at time   1100410 ns AREF : Auto Refresh
+# at time   1115410 ns AREF : Auto Refresh
+# at time   1130410 ns AREF : Auto Refresh
+# at time   1145410 ns AREF : Auto Refresh
+# at time   1160410 ns AREF : Auto Refresh
+# at time   1175410 ns AREF : Auto Refresh
+# at time   1190410 ns AREF : Auto Refresh
+# at time   1205410 ns AREF : Auto Refresh
+# at time   1220410 ns AREF : Auto Refresh
+# at time   1235410 ns AREF : Auto Refresh
+# at time   1250410 ns AREF : Auto Refresh
+# at time   1265410 ns AREF : Auto Refresh
+# at time   1280410 ns AREF : Auto Refresh
+# at time   1295410 ns AREF : Auto Refresh
+# at time   1310410 ns AREF : Auto Refresh
+# at time   1325410 ns AREF : Auto Refresh
+# at time   1340410 ns AREF : Auto Refresh
+# at time   1355410 ns AREF : Auto Refresh
+# at time   1370410 ns AREF : Auto Refresh
+# at time   1385410 ns AREF : Auto Refresh
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:11:21 on Aug 02,2018
+# vlog -reportprogress 300 ../src/cmd_decode.v ../src/sdram_aref.v ../src/sdram_init.v ../src/sdram_read.v ../src/sdram_top.v ../src/sdram_write.v ../src/top.v ../src/uart_rx.v ../src/uart_tx.v 
+# -- Compiling module cmd_decode
+# -- Compiling module sdram_aref
+# -- Compiling module sdram_init
+# -- Compiling module sdram_read
+# -- Compiling module sdram_top
+# -- Compiling module sdram_write
+# -- Compiling module top
+# -- Compiling module uart_rx
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	top
+# End time: 16:11:21 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:11:21 on Aug 02,2018
+# vlog -reportprogress 300 ./sdram_model_plus.v ./tb_top.v 
+# -- Compiling module sdram_model_plus
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 16:11:21 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:11:21 on Aug 02,2018
+# vlog -reportprogress 300 ./altera_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 16:11:23 on Aug 02,2018, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:11:23 on Aug 02,2018
+# vlog -reportprogress 300 ./../src/core/fifo_16x8.v 
+# -- Compiling module fifo_16x8
+# 
+# Top level modules:
+# 	fifo_16x8
+# End time: 16:11:23 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:11:25 on Aug 02,2018, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_top 
+# Start time: 16:11:25 on Aug 02,2018
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_top(fast)
+# Loading work.top(fast)
+# Loading work.uart_rx(fast)
+# Loading work.cmd_decode(fast)
+# Loading work.fifo_16x8(fast)
+# Loading work.scfifo(fast)
+# Loading work.ALTERA_DEVICE_FAMILIES(fast)
+# Loading work.uart_tx(fast)
+# Loading work.sdram_top(fast)
+# Loading work.sdram_init(fast)
+# Loading work.sdram_aref(fast)
+# Loading work.sdram_write(fast)
+# Loading work.sdram_read(fast)
+# Loading work.sdram_model_plus(fast)
+# ** Warning: (vsim-3015) ./tb_top.v(101): [PCDPC] - Port size (4) does not match connection size (2) for port 'Dqm'. The port definition is at: ./sdram_model_plus.v(56).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/sdram_model_plus_inst File: ./sdram_model_plus.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# at time    200130 ns PRE  : Bank = ALL
+# at time    200150 ns AREF : Auto Refresh
+# at time    200230 ns AREF : Auto Refresh
+# at time    200310 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 4
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time    215410 ns AREF : Auto Refresh
+# at time    227590 ns ACT  : Bank = 0 Row =    0
+# at time    227690 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    227710 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    227730 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    227750 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    227770 ns PRE  : Bank = 0
+# at time    230410 ns AREF : Auto Refresh
+# at time    233190 ns ACT  : Bank = 0 Row =    0
+# at time    233337 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    233357 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    233370 ns PRE  : Bank = 0
+# at time    233377 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    233397 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    245410 ns AREF : Auto Refresh
+# at time    260410 ns AREF : Auto Refresh
+# at time    275410 ns AREF : Auto Refresh
+# at time    290410 ns AREF : Auto Refresh
+# at time    295290 ns ACT  : Bank = 0 Row =    0
+# at time    295390 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    295410 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    295430 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    295450 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    295470 ns PRE  : Bank = 0
+# at time    300890 ns ACT  : Bank = 0 Row =    0
+# at time    301037 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    301057 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    301070 ns PRE  : Bank = 0
+# at time    301077 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    301097 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    305410 ns AREF : Auto Refresh
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:12:36 on Aug 02,2018
+# vlog -reportprogress 300 ../src/cmd_decode.v ../src/sdram_aref.v ../src/sdram_init.v ../src/sdram_read.v ../src/sdram_top.v ../src/sdram_write.v ../src/top.v ../src/uart_rx.v ../src/uart_tx.v 
+# -- Compiling module cmd_decode
+# -- Compiling module sdram_aref
+# -- Compiling module sdram_init
+# -- Compiling module sdram_read
+# -- Compiling module sdram_top
+# -- Compiling module sdram_write
+# -- Compiling module top
+# -- Compiling module uart_rx
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	top
+# End time: 16:12:37 on Aug 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:12:37 on Aug 02,2018
+# vlog -reportprogress 300 ./sdram_model_plus.v ./tb_top.v 
+# -- Compiling module sdram_model_plus
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 16:12:37 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:12:37 on Aug 02,2018
+# vlog -reportprogress 300 ./altera_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 16:12:39 on Aug 02,2018, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:12:39 on Aug 02,2018
+# vlog -reportprogress 300 ./../src/core/fifo_16x8.v 
+# -- Compiling module fifo_16x8
+# 
+# Top level modules:
+# 	fifo_16x8
+# End time: 16:12:39 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:12:41 on Aug 02,2018, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_top 
+# Start time: 16:12:41 on Aug 02,2018
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_top(fast)
+# Loading work.top(fast)
+# Loading work.uart_rx(fast)
+# Loading work.cmd_decode(fast)
+# Loading work.fifo_16x8(fast)
+# Loading work.scfifo(fast)
+# Loading work.ALTERA_DEVICE_FAMILIES(fast)
+# Loading work.uart_tx(fast)
+# Loading work.sdram_top(fast)
+# Loading work.sdram_init(fast)
+# Loading work.sdram_aref(fast)
+# Loading work.sdram_write(fast)
+# Loading work.sdram_read(fast)
+# Loading work.sdram_model_plus(fast)
+# ** Warning: (vsim-3015) ./tb_top.v(101): [PCDPC] - Port size (4) does not match connection size (2) for port 'Dqm'. The port definition is at: ./sdram_model_plus.v(56).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/sdram_model_plus_inst File: ./sdram_model_plus.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# at time    200130 ns PRE  : Bank = ALL
+# at time    200150 ns AREF : Auto Refresh
+# at time    200230 ns AREF : Auto Refresh
+# at time    200310 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 4
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time    215410 ns AREF : Auto Refresh
+# at time    227590 ns ACT  : Bank = 0 Row =    0
+# at time    227690 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    227710 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    227730 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    227750 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    227770 ns PRE  : Bank = 0
+# at time    230410 ns AREF : Auto Refresh
+# at time    233190 ns ACT  : Bank = 0 Row =    0
+# at time    233337 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    233357 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    233370 ns PRE  : Bank = 0
+# at time    233377 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    233397 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    245410 ns AREF : Auto Refresh
+# at time    260410 ns AREF : Auto Refresh
+# at time    275410 ns AREF : Auto Refresh
+# at time    290410 ns AREF : Auto Refresh
+# at time    295290 ns ACT  : Bank = 0 Row =    0
+# at time    295390 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    295410 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    295430 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    295450 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    295470 ns PRE  : Bank = 0
+# at time    300890 ns ACT  : Bank = 0 Row =    0
+# at time    301037 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    301057 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    301070 ns PRE  : Bank = 0
+# at time    301077 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    301097 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    305410 ns AREF : Auto Refresh
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:13:21 on Aug 02,2018
+# vlog -reportprogress 300 ../src/cmd_decode.v ../src/sdram_aref.v ../src/sdram_init.v ../src/sdram_read.v ../src/sdram_top.v ../src/sdram_write.v ../src/top.v ../src/uart_rx.v ../src/uart_tx.v 
+# -- Compiling module cmd_decode
+# -- Compiling module sdram_aref
+# -- Compiling module sdram_init
+# -- Compiling module sdram_read
+# -- Compiling module sdram_top
+# -- Compiling module sdram_write
+# -- Compiling module top
+# -- Compiling module uart_rx
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	top
+# End time: 16:13:22 on Aug 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:13:22 on Aug 02,2018
+# vlog -reportprogress 300 ./sdram_model_plus.v ./tb_top.v 
+# -- Compiling module sdram_model_plus
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 16:13:22 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:13:22 on Aug 02,2018
+# vlog -reportprogress 300 ./altera_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 16:13:23 on Aug 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:13:25 on Aug 02,2018
+# vlog -reportprogress 300 ./../src/core/fifo_16x8.v 
+# -- Compiling module fifo_16x8
+# 
+# Top level modules:
+# 	fifo_16x8
+# End time: 16:13:25 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:13:27 on Aug 02,2018, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_top 
+# Start time: 16:13:27 on Aug 02,2018
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_top(fast)
+# Loading work.top(fast)
+# Loading work.uart_rx(fast)
+# Loading work.cmd_decode(fast)
+# Loading work.fifo_16x8(fast)
+# Loading work.scfifo(fast)
+# Loading work.ALTERA_DEVICE_FAMILIES(fast)
+# Loading work.uart_tx(fast)
+# Loading work.sdram_top(fast)
+# Loading work.sdram_init(fast)
+# Loading work.sdram_aref(fast)
+# Loading work.sdram_write(fast)
+# Loading work.sdram_read(fast)
+# Loading work.sdram_model_plus(fast)
+# ** Warning: (vsim-3015) ./tb_top.v(101): [PCDPC] - Port size (4) does not match connection size (2) for port 'Dqm'. The port definition is at: ./sdram_model_plus.v(56).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/sdram_model_plus_inst File: ./sdram_model_plus.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# at time    200130 ns PRE  : Bank = ALL
+# at time    200150 ns AREF : Auto Refresh
+# at time    200230 ns AREF : Auto Refresh
+# at time    200310 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 4
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time    215410 ns AREF : Auto Refresh
+# at time    227590 ns ACT  : Bank = 0 Row =    0
+# at time    227690 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    227710 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    227730 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    227750 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    227770 ns PRE  : Bank = 0
+# at time    230410 ns AREF : Auto Refresh
+# at time    233190 ns ACT  : Bank = 0 Row =    0
+# at time    233337 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    233357 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    233370 ns PRE  : Bank = 0
+# at time    233377 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    233397 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    245410 ns AREF : Auto Refresh
+# at time    260410 ns AREF : Auto Refresh
+# at time    275410 ns AREF : Auto Refresh
+# at time    290410 ns AREF : Auto Refresh
+# at time    295290 ns ACT  : Bank = 0 Row =    0
+# at time    295390 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    295410 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    295430 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    295450 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    295470 ns PRE  : Bank = 0
+# at time    300890 ns ACT  : Bank = 0 Row =    0
+# at time    301037 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    301057 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    301070 ns PRE  : Bank = 0
+# at time    301077 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    301097 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    305410 ns AREF : Auto Refresh
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:14:15 on Aug 02,2018
+# vlog -reportprogress 300 ../src/cmd_decode.v ../src/sdram_aref.v ../src/sdram_init.v ../src/sdram_read.v ../src/sdram_top.v ../src/sdram_write.v ../src/top.v ../src/uart_rx.v ../src/uart_tx.v 
+# -- Compiling module cmd_decode
+# -- Compiling module sdram_aref
+# -- Compiling module sdram_init
+# -- Compiling module sdram_read
+# -- Compiling module sdram_top
+# -- Compiling module sdram_write
+# -- Compiling module top
+# -- Compiling module uart_rx
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	top
+# End time: 16:14:16 on Aug 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:14:16 on Aug 02,2018
+# vlog -reportprogress 300 ./sdram_model_plus.v ./tb_top.v 
+# -- Compiling module sdram_model_plus
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 16:14:16 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:14:16 on Aug 02,2018
+# vlog -reportprogress 300 ./altera_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 16:14:17 on Aug 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:14:18 on Aug 02,2018
+# vlog -reportprogress 300 ./../src/core/fifo_16x8.v 
+# -- Compiling module fifo_16x8
+# 
+# Top level modules:
+# 	fifo_16x8
+# End time: 16:14:18 on Aug 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:14:19 on Aug 02,2018, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_top 
+# Start time: 16:14:19 on Aug 02,2018
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_top(fast)
+# Loading work.top(fast)
+# Loading work.uart_rx(fast)
+# Loading work.cmd_decode(fast)
+# Loading work.fifo_16x8(fast)
+# Loading work.scfifo(fast)
+# Loading work.ALTERA_DEVICE_FAMILIES(fast)
+# Loading work.uart_tx(fast)
+# Loading work.sdram_top(fast)
+# Loading work.sdram_init(fast)
+# Loading work.sdram_aref(fast)
+# Loading work.sdram_write(fast)
+# Loading work.sdram_read(fast)
+# Loading work.sdram_model_plus(fast)
+# ** Warning: (vsim-3015) ./tb_top.v(101): [PCDPC] - Port size (4) does not match connection size (2) for port 'Dqm'. The port definition is at: ./sdram_model_plus.v(56).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/sdram_model_plus_inst File: ./sdram_model_plus.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# at time    200130 ns PRE  : Bank = ALL
+# at time    200150 ns AREF : Auto Refresh
+# at time    200230 ns AREF : Auto Refresh
+# at time    200310 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 4
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time    215410 ns AREF : Auto Refresh
+# at time    227590 ns ACT  : Bank = 0 Row =    0
+# at time    227690 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    227710 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    227730 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    227750 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    227770 ns PRE  : Bank = 0
+# at time    230410 ns AREF : Auto Refresh
+# at time    233190 ns ACT  : Bank = 0 Row =    0
+# at time    233337 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    233357 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    233370 ns PRE  : Bank = 0
+# at time    233377 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    233397 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    245410 ns AREF : Auto Refresh
+# at time    260410 ns AREF : Auto Refresh
+# at time    275410 ns AREF : Auto Refresh
+# at time    290410 ns AREF : Auto Refresh
+# at time    295290 ns ACT  : Bank = 0 Row =    0
+# at time    295390 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    295410 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    295430 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    295450 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    295470 ns PRE  : Bank = 0
+# at time    300890 ns ACT  : Bank = 0 Row =    0
+# at time    301037 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = zz00
+# at time    301057 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = zz00
+# at time    301070 ns PRE  : Bank = 0
+# at time    301077 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = zz00
+# at time    301097 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = zz00
+# at time    305410 ns AREF : Auto Refresh
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf F:/Study/FPGA/opensoc/first/kevin_code/Sdram_Controller/sim/wave.do
+# End time: 16:16:35 on Aug 02,2018, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 1
