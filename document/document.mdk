@@ -1,0 +1,24 @@
+Title         : 张小鸿
+Author        : You
+Logo          : True
+
+[TITLE]
+
+# Madoko 
+
+Madoko is a fast markdown processor for writing professional articles
+with a focus on simplicity an
+$ Math
+e = mc^2
+$
+d plain text readability.
+
+* Read the [reference manual].
+* Explore the upper-right toolbox menu to discover how Markdown works. 
+* `Alt-Q` reformats the current paragraph.
+
+Enjoy!
+
+> 张小鸿
+
+[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
